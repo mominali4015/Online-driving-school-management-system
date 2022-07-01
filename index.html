@@ -56,7 +56,7 @@
 
 
   <!-- Navbar -->
-<div class="container-fluid bg-warning">
+  <div class="container-fluid bg-warning">
     <div class="row">
       <div class="col-md-2 ">
         <img src="logos/JDlogo.svg" alt="Bootstrap" height="70px" width="70px">
@@ -74,22 +74,27 @@
                   <a class="nav-link text-dark" href="#">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark" href="#">ABOUT US</a>
+                  <a class="nav-link text-dark" href="#contactus">CONTACT US</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark" href="#">CONTACT US</a>
+                  <a class="nav-link text-dark" href="#ourcars">CARS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark" href="#">CARS</a>
+                  <a class="nav-link text-dark" href="#chooseus">    
+                    ABOUT US</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link text-dark" href="#">INSTRUCTORS</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark" href="#">PAYMENT METHODS</a>
-                </li>
+
                 <li class="nav-item">
                   <a class="nav-link text-dark" href="#">TERMS AND CONDITIONS</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="studentAdminPanel.html">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">SIGNIN</a>
                 </li>
               </ul>
             </div>
@@ -139,7 +144,7 @@
 
 
   <!-- 4 Items Bar -->
-  <div class="container-fluid ">
+  <!-- <div class="container-fluid ">
     <div class="row bg-dark">
       <div class="col-3 d-flex justify-content-center text-light">
         <i class="bi bi-person-fill text-warning bi-5x" style="font-size: 2rem;"></i>&nbsp;&nbsp;
@@ -159,22 +164,48 @@
         <span class=" fw-bold text-light"> 22 <br>3000+<br>STUDENTS</span>
       </div>
     </div>
+  </div> -->
+
+
+
+  <div class="container-fluid pb-4">
+    <div class="row bg-dark p-3 align-items-center">
+      <div class="col text-center text-light">
+        <i class="bi bi-person-fill text-warning px-2"></i>
+        <span class="fw-bold"> 8 <br> Teachers</span>
+      </div>
+      <div class="col text-center text-light">
+        <i class="bi bi-clock-fill text-warning px-2"></i>
+        <span class="fw-bold">09:00AM to 08:00PM <br> TRAINING HOURS </span>
+      </div>
+      <div class="col text-center text-light">
+        <i class="bi bi-calendar-fill text-warning px-2"></i>
+        <span class="fw-bold">21 <br> WORKING YEARS</span>
+      </div>
+      <div class="col text-center text-light">
+        <i class="bi bi-emoji-smile-fill text-warning px-2"></i>
+        <span class="fw-bold">30,000+ <br> STUDENTS</span>
+      </div>
+    </div>
   </div>
 
-  <br><br><br><br><br>
+
 
 
 
   <!-- Adding Pic and Para -->
-  <div class="container">
+  <div class="container py-4">
     <div class="row">
       <div class="col-md-5 d-flex justify-content-center">
         <img class="d-block w-100 h-100" src="images/carShedule.jpg" alt="ad">
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-6 ">
-        <div><h1 class="fw-bold text-dark d-flex justify-content-center">Are You Ready?</h1></div>
-        <div class="d-flex justify-content-center pt-4">Diana Driving School was established in June 1998. The main idea was to set a plate form
+        <div>
+          <h1 class="fw-bold text-dark d-flex justify-content-center">Are You Ready?</h1>
+        </div>
+        <div class="d-flex justify-content-center pt-4">Diana Driving School was established in June 1998. The main idea
+          was to set a plate form
           for the students who
           want to learn driving according to rules and system, where they should be coached in the manners like other
           advance countries. At Diana Driving School, we have taught the art of driving to more than 30,000 students
@@ -193,9 +224,9 @@
 
 
 
-  <br><br><br>
+
   <!-- Adding Videos -->
-  <div class="container">
+  <div class="container py-4">
     <div class="row">
 
       <div class="col-md-4 d-flex justify-content-center">
@@ -234,9 +265,9 @@
 
 
 
-  <br><br>
+
   <!-- Shedule Your Ride -->
-  <div class="container-fluid">
+  <div class="container-fluid py-4" id="contactus">
     <div class="row bg-dark p-4 ">
       <div class="col-md text-light text-center">
         <h2>Schedule <span class="text-warning">Your Driving Lessons</span> with Us!</h2>
@@ -249,9 +280,9 @@
 
 
 
-  <br><br><br>
+
   <!-- car slider -->
- <div class="container-fluid py-5 text-center">
+  <div class="container-fluid py-5 text-center py-4" id="ourcars">
     <h1 class="fw-bold py-5">Our Cars</h1>
     <div id="SecondCarousel" class="carousel slide" data-bs-ride="carousel">
 
@@ -324,9 +355,9 @@
 
 
 
-  <br><br><br>
+
   <!-- why choose us -->
-  <div class="container-fluid">
+  <div class="container-fluid py-4" id="chooseus">
     <div class="container">
       <div class="row">
         <div class="col text-center">
@@ -387,66 +418,70 @@
 
 
 
-  <br><br><br><br>
   <!-- background with image -->
-  <div class="bg-image" style="background-image: url('images/lowOp.webp'); height: 110vh;">
-    <br><br><br><br><br>
-    <div class="class ">
-      <br><br><br><br>
-      <div id="ourBGCarousels" class="carousel slide" data-bs-ride="carousel">
+  <div class=" container-fluid bg-image py-4" style="background-image: url('images/lowOp.webp'); ">
+    <div class="row align-content-center">
+      <div class="col-md-4"></div>
+      <div class="col-md-4 align-middle d-md-inline-flex ">
+        <span class="">
 
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#ourBGCarousels" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#ourBGCarousels" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#ourBGCarousels" data-bs-slide-to="2"></button>
-        </div>
-        <!-- The slideshow/carousel -->
-        <!--  -->
-        <div class="carousel-inner">
-          <div class="carousel-item active text-center">
-            <h2 class="fw-bold text-light">OUR CUSTOMERS SAYS</h2>
-            <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+          <div id="ourBGCarousels" class="carousel slide" data-bs-ride="carousel">
 
-            <h4 class="text-light">AFFORDABLE FEE</h4>
-            <span class="text-light">We know this process can be expensive. So <br> we constantly monitor our
-              competitions <br>
-              pricing.</span>
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#ourBGCarousels" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#ourBGCarousels" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#ourBGCarousels" data-bs-slide-to="2"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <!--  -->
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center">
+                <h2 class="fw-bold text-light">OUR CUSTOMERS SAYS</h2>
+                <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+
+                <h4 class="text-light">AFFORDABLE FEE</h4>
+                <span class="text-light">We know this process can be expensive. So <br> we constantly monitor our
+                  competitions <br>
+                  pricing.</span>
+              </div>
+              <div class="carousel-item  text-center">
+                <h2 class="fw-bold">OUR CUSTOMERS SAYS</h2>
+                <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+                <h4>AFFORDABLE FEE</h4>
+                <span>We know this process can be expensive. So <br> we constantly monitor our competitions <br>
+                  pricing.</span>
+              </div>
+              <div class="carousel-item text-center">
+                <h2 class="fw-bold text-light">OUR CUSTOMERS SAYS</h2>
+                <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+                <h4 class="text-light">AFFORDABLE FEE</h4>
+                <span class="text-light">We know this process can be expensive. So <br> we constantly monitor our
+                  competitions <br>
+                  pricing.</span>
+              </div>
+            </div>
+            <br><br><br>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#ourBGCarousels" data-bs-slide="next">
+              <!-- <span class="carousel-control-prev-icon"></span> -->
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#ourBGCarousels" data-bs-slide="next">
+              <!-- <span class="carousel-control-next-icon"></span> -->
+            </button>
           </div>
-          <div class="carousel-item  text-center">
-            <h2 class="fw-bold">OUR CUSTOMERS SAYS</h2>
-            <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
-            <h4>AFFORDABLE FEE</h4>
-            <span>We know this process can be expensive. So <br> we constantly monitor our competitions <br>
-              pricing.</span>
-          </div>
-          <div class="carousel-item text-center">
-            <h2 class="fw-bold text-light">OUR CUSTOMERS SAYS</h2>
-            <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
-            <h4 class="text-light">AFFORDABLE FEE</h4>
-            <span class="text-light">We know this process can be expensive. So <br> we constantly monitor our
-              competitions <br>
-              pricing.</span>
-          </div>
-        </div>
-        <br><br><br>
-        <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#ourBGCarousels" data-bs-slide="next">
-          <!-- <span class="carousel-control-prev-icon"></span> -->
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#ourBGCarousels" data-bs-slide="next">
-          <!-- <span class="carousel-control-next-icon"></span> -->
-        </button>
+        </span>
+
       </div>
-
+      <div class="col-md-4"></div>
     </div>
   </div>
 
 
 
-  <br><br><br>
+
   <!-- adding promo -->
-<div class="container" style="background-image: url('./images/promo.jpg')">
+  <div class="container mt-4 py-2" style="background-image: url('./images/promo.jpg')">
     <div class="row">
       <div class="col-md-8 text-light text-center" style="font-size: 1.8rem;">
         <div>
@@ -480,11 +515,11 @@
 
 
 
-  <br><br><br><br>
+
   <!-- Footer -->
   <!-- first bar -->
-  
-  <div class=" container-fluid p-0">
+
+  <div class=" container-fluid p-0 pt-4" style="overflow: hidden;">
     <div class="bg-warning p-3 text-dark ">
 
       <div class="row">
@@ -492,15 +527,15 @@
           <span class="h5"> Get connected with us on social media:</span>
         </div>
 
-        
+
         <div class="col-8  justify-content-end d-flex text-dark">
           <a href="" class="text-dark px-2"><i class="bi bi-facebook" style="font-size: 1.2rem;"></i></i></a>
           <a href="" class="text-dark px-2"><i class="bi bi-twitter" style="font-size: 1.2rem;"></i></i></a>
-  
+
           <a href="" class="text-dark px-2"><i class="bi bi-linkedin" style="font-size: 1.2rem;"></i></a>
-          
+
           <a href="" class="text-dark px-2"><i class="bi bi-instagram" style="font-size: 1.2rem;"></i></a>
-         
+
           <a href="" class="text-dark px-2"><i class="bi bi-pinterest" style="font-size: 1.2rem;"></i></a>
           <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone-forward-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg> -->
         </div>
