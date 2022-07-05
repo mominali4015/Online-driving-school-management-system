@@ -11,42 +11,75 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <title>Student Registration</title>
+  <title>Sign Up</title>
 </head>
 
 <body style="background-image: url('/images/SignUp.jpg');">
-  <div class="container d-flex align-items-center justify-content-center min-vh-100">
-    <div class="container">
+  <div class="container-fluid  py-2">
+    <div class="row py-2 fw-light fw-bold">
+      <div class="col text-center">
+        <h1>Welcome to JD Driving School</h1>
+      </div>
+    </div>
+    <br>
+    <div class="container bg-light rounded-3 px-4">
       <div class="row">
-        <div class="col bg-light p-4 rounded-3 border-dark">
-          <div class="h2 d-flex justify-content-center">Student Registration Form</div>
-          <div class="h5 d-flex justify-content-start">Please Enter Your Credentials To Create An Account:</div>
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email Address:</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="example@gmail.com">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-              <label for="Username" class="form-label">Username:</label>
-              <input type="Username" class="form-control" id="Username" placeholder="Your Username">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password:</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="********">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Send me Latest Updates & News </label>
-            </div>
-            <button type="submit" class="btn btn-primary">Create Account</button>
-            <button type="reset" class="btn btn-warning">Clear Form</button>
-          </form>
+        <div class="col text-center h1 p-3"> REGISTRATION FORM</h3>
         </div>
+      </div>
+      <div class="row py-2 ">
+        <div class="col">
+          <label for="formGroupExampleInput" class="form-label fw-bold">Full Name</label>
+          <input type="text" class="form-control" placeholder="Your Name" aria-label="Full name">
+        </div>
+        <div class="col">
+          <label for="formGroupExampleInput" class="form-label fw-bold"> Phone Number</label>
+          <input type="text" class="form-control" placeholder="Your Mobile Number" aria-label="Last name">
+        </div>
+      </div>
+
+      <div class="row py-2">
+        <div class="col">
+          <label for="formGroupExampleInput" class="form-label fw-bold"> Email Address </label>
+          <input type="text" class="form-control" placeholder="Your Email" aria-label="First name">
+        </div>
+        <div class="col">
+          <label for="formGroupExampleInput" class="form-label fw-bold">Residential Address</label>
+          <input type="text" class="form-control" placeholder="Your Address" aria-label="Last name">
+        </div>
+      </div>
+
+      <div class="row py-2">
+        <div class="col">
+          <label for="formGroupExampleInput" class="form-label fw-bold"> Age </label>
+          <input type="text" class="form-control" placeholder="Your Age" aria-label="First name">
+        </div>
+        <div class="col">
+          <label for="formGroupExampleInput" class="form-label fw-bold">Gender </label>
+          <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+          <select class="form-select" id="inlineFormSelectPref">
+            <option selected>Please Select Your Gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row py-2">
+        <div class="col">
+          <label for="formGroupExampleInput" class="form-label fw-bold"> Password </label>
+          <input type="password" class="form-control" placeholder="********" aria-label="First name">
+        </div>
+        <div class="col">
+          <label for="formGroupExampleInput" class="form-label fw-bold">Confirm Password </label>
+          <input type="password" class="form-control" placeholder="********" aria-label="Last name">
+        </div>
+      </div>
+      <div class="text-center mx-auto py-3">
+        <button type="submit" class="btn btn-primary">Create Account</button>
+        <button type="reset" class="btn btn-warning">Clear Form</button>
       </div>
     </div>
   </div>
 </body>
-
-</html>
