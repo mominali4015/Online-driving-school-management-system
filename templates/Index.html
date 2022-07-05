@@ -17,7 +17,7 @@
 <body>
 
   <!-- Adding First Yellow Bar -->
-  <div class="container-fluid bg-warning p-3">
+  <div class="container-fluid bg-dark p-2 text-light">
     <div class="row">
       <div class="col-3 text-center">
         <i class="bi bi-geo-alt-fill"></i>
@@ -33,20 +33,20 @@
         <span><i class="bi bi-smartwatch px-1"></i> 9:00 to 8:00 </span>
       </div>
       <div class="col-2">
-        <a href="" class="text-dark px-2"><i class="bi bi-facebook"></i></a>
-        <a href="" class="text-dark px-2"><i class="bi bi-twitter"></i></i></a>
-        <a href="" class="text-dark px-2"><i class="bi bi-linkedin"></i></i></a>
-        <a href="" class="text-dark px-2"><i class="bi bi-instagram"></i></i></a>
-        <a href="" class="text-dark px-2"><i class="bi bi-github"></i></i></a>
+        <a href="" class="text-light px-2"><i class="bi bi-facebook"></i></a>
+        <a href="" class="text-light px-2"><i class="bi bi-twitter"></i></i></a>
+        <a href="" class="text-light px-2"><i class="bi bi-linkedin"></i></i></a>
+        <a href="" class="text-light px-2"><i class="bi bi-instagram"></i></i></a>
+        <a href="" class="text-light px-2"><i class="bi bi-github"></i></i></a>
       </div>
     </div>
   </div>
 
   <!-- Adding Navbar with logo -->
-  <div class="container-fluid bg-success text-light">
+  <div class="container-fluid bg-warning p-0 m-0">
     <div class="row">
-      <div class="col-2 text-center">
-        <img class="mx-auto" src="JDlogo.svg" alt="Bootstrap" width="100px" height="100px">
+      <div class="col-md-2 text-center">
+        <img class="mx-auto" src="./images/JDlogo.svg" alt="Bootstrap" width="80px" height="80px">
       </div>
       <div class="col-md-10 d-flex align-items-center justify-content-end">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -58,25 +58,25 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav fw-bold text-light p-md-2">
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">HOME</a>
+                  <a class="nav-link" href="#">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">ABOUT US</a>
+                  <a class="nav-link" href="#Features">ABOUT US</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">CONTACT US</a>
+                  <a class="nav-link" href="#Cars">CARS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">CARS</a>
+                  <a class="nav-link" href="#Clients">OUR CLIENTS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">INSTRUCTORS</a>
+                  <a class="nav-link" href="#ContactUs">CONTACT US</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">PAYMENT METHODS</a>
+                  <a class="nav-link" href="/templates/Login.html">LOGIN</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">TERMS AND CONDITIONS</a>
+                  <a class="nav-link" href="/templates/SignUp.html">SIGN UP</a>
                 </li>
               </ul>
             </div>
@@ -121,7 +121,7 @@
 
   <!-- Adding 4-Items Info Bar -->
   <div class="container-fluid">
-    <div class="row bg-dark p-3 align-items-center">
+    <div class="row bg-dark p-4 align-items-center">
       <div class="col text-center text-light">
         <i class="bi bi-person-fill text-warning px-2"></i>
         <span class="fw-bold"> 8 <br> Teachers</span>
@@ -209,8 +209,8 @@
     </div>
   </div>
 
-  <!-- Adding Second Slider -->
-  <div class="container-fluid py-5 text-center">
+  <!-- Adding Cars Slider -->
+  <div class="container-fluid py-5 text-center" id="Cars">
     <h1 class="fw-bold py-5">Our Cars</h1>
     <div id="SecondCarousel" class="carousel slide" data-bs-ride="carousel">
 
@@ -282,7 +282,7 @@
   </div>
 
   <!-- Adding Features Sections -->
-  <div class="container py-5 text-center">
+  <div class="container py-5 text-center" id="Features">
     <h1 class="fw-bold">Why Choose Us?</h1>
     <p class="py-2">We understand that learning to drive isn't cheap, many driving schools will take advantage of this
       and charge you <br>
@@ -322,8 +322,8 @@
     </div>
   </div>
 
-  <!-- Adding third slider -->
-  <div class="contanier-fluid text-center" style="background-image: url('images/lowOp.webp'); height: 100vh;">
+  <!-- Adding clients slider -->
+  <div class="contanier-fluid text-center" style="background-image: url('images/lowOp.webp'); height: 100vh;" id="Clients">
     <h1 class="fw-bold text-light py-5">Our Customers Say...</h1>
     <div id="ourBGCarousels" class="carousel slide" data-bs-ride="carousel">
 
@@ -416,7 +416,7 @@
   </div>
 
   <!-- Adding Promo Section -->
-  <div class="container my-5" style="background-image: url('./images/promo.jpg')">
+  <div class="container my-5" style="background-image: url('./images/promo.jpg')" id="ContactUs">
     <div class="row">
       <div class="col-md-8 text-light text-center" style="font-size: 1.8rem;">
         <div>
@@ -449,25 +449,25 @@
   </div>
 
   <!--Adding Footer -->
-  <div class="container-fluid ">
+  <div class=" container-fluid p-0 pt-4" style="overflow: hidden;">
 
     <!-- first bar -->
-    <div class="home container-fluid bg-primary p-2 text-light">
+    <div class="home container-fluid bg-warning p-2 text-dark">
       <div class="row">
         <div class="col-4 d-flex justify-content-center ">
           <span class="h5">Get connected with us on social media:</span>
         </div>
         <div class="col-4"></div>
         <div class="col-4 justify-content-end d-flex">
-          <a href="" class="text-light"><i class="bi bi-facebook" style="font-size: 1.2rem;"></i></i></a>
+          <a href="" class="text-dark"><i class="bi bi-facebook" style="font-size: 1.2rem;"></i></i></a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="" class="text-light"><i class="bi bi-twitter" style="font-size: 1.2rem;"></i></i></a>
+          <a href="" class="text-dark"><i class="bi bi-twitter" style="font-size: 1.2rem;"></i></i></a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="" class="text-light"><i class="bi bi-linkedin" style="font-size: 1.2rem;"></i></a>
+          <a href="" class="text-dark"><i class="bi bi-linkedin" style="font-size: 1.2rem;"></i></a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="" class="text-light"><i class="bi bi-instagram" style="font-size: 1.2rem;"></i></a>
+          <a href="" class="text-dark"><i class="bi bi-instagram" style="font-size: 1.2rem;"></i></a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="" class="text-light"><i class="bi bi-pinterest" style="font-size: 1.2rem;"></i></a>
+          <a href="" class="text-dark"><i class="bi bi-pinterest" style="font-size: 1.2rem;"></i></a>
         </div>
       </div>
     </div>
