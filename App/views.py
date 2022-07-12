@@ -11,15 +11,16 @@ def login(request):
 def signUp(request):
 
     if request.method == "POST":
-        name = request.POST.get('name')
-        phone = request.POST.get('phone')
-        email = request.POST.get('email')
-        address = request.POST.get('address')
-        age = request.POST.get('age')
-        gender = request.POST.get('gender')
-        password = request.POST.get('password')
-        course = request.POST.get('course')
-        time = request.POST.get('time')
+        name = request.POST['Name']
+        phone = request.POST['phone']
+        email = request.POST['email']
+        address = request.POST['address']
+        age = request.POST['age']
+        gender = request.POST['gender']
+        password = request.POST['password']
+        course = request.POST['course']
+        time = request.POST['time']
+        
         student = signUp(name=name, phone=phone, email=email, address=address, age=age, gender=gender, password=password, time=time, course=course)
         student.save()
     return render(request, 'signUp.html')
