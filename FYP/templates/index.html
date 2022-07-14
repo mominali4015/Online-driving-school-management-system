@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -59,7 +60,7 @@
   <div class="container-fluid bg-warning">
     <div class="row">
       <div class="col-md-2 ">
-        <img src="logos/JDlogo.svg" alt="Bootstrap" height="70px" width="70px">
+        <img src="{% static 'images/JDlogo.svg' %}" alt="Bootstrap" height="70px" width="70px">
       </div>
       <div class="col-md-10 d-flex justify-content-end ">
         <nav class="navbar navbar-expand-lg navbar-light bg-warning">
@@ -91,7 +92,7 @@
                   <a class="nav-link text-dark" href="#">TERMS AND CONDITIONS</a>
                 </li> -->
                 <li class="nav-item">
-                  <a class="nav-link text-dark" href="login.html">LOGIN</a>
+                  <a class="nav-link text-dark" href="login">LOGIN</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-dark" href="signup.html">SIGN UP</a>
@@ -120,13 +121,13 @@
       <!-- The slideshow/carousel -->
       <div class="carousel-inner">
         <div class="carousel-item ">
-          <img src="images/slider-4.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+          <img src="/static/images/slider-4.jpg" alt="Los Angeles" class="d-block" style="width:100%">
         </div>
         <div class="carousel-item active">
-          <img src="images/slider-1.jpg" alt="Chicago" class="d-block" style="width:100%">
+          <img src="/static/images/slider-1.jpg" alt="Chicago" class="d-block" style="width:100%">
         </div>
         <div class="carousel-item">
-          <img src="images/Slider-2.jpg" alt="New York" class="d-block" style="width:100%">
+          <img src="/static/images/Slider-2.jpg" alt="New York" class="d-block" style="width:100%">
         </div>
       </div>
 
@@ -197,7 +198,7 @@
   <div class="container py-4">
     <div class="row">
       <div class="col-md-5 d-flex justify-content-center">
-        <img class="d-block w-100 h-100" src="images/carShedule.jpg" alt="ad">
+        <img class="d-block w-100 h-100" src="/static/images/carShedule.jpg" alt="ad">
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-6 ">
@@ -298,12 +299,12 @@
         <div class="carousel-item active">
           <div class="row">
             <div class="col-md-6">
-              <img width="300px" height="300px" src="images/cars/city.jpg" alt="city">
+              <img width="300px" height="300px" src="/static/images/cars/city.jpg" alt="city">
               <h2 class="fw-bold py-3">Honda City</h2>
               <button type="button" class="btn btn-warning">More Info</button>
             </div>
             <div class="col-md-6">
-              <img width="300px" height="300px" src="images/cars/fortuner.jpg" alt="fortuner">
+              <img width="300px" height="300px" src="/static/images/cars/fortuner.jpg" alt="fortuner">
               <h2 class="fw-bold py-3">Toyota Fortuner</h2>
               <button type="button" class="btn btn-warning">More Info</button>
             </div>
@@ -313,12 +314,12 @@
         <div class="carousel-item">
           <div class="row">
             <div class="col-md-6">
-              <img width="300px" height="300px" src="images/cars/corolla.jpg" alt="corolla">
+              <img width="300px" height="300px" src="/static/images/cars/corolla.jpg" alt="corolla">
               <h2 class="fw-bold py-3">Toyota Corolla</h2>
               <button type="button" class="btn btn-warning">More Info</button>
             </div>
             <div class="col-md-6">
-              <img width="300px" height="300px" src="images/cars/mira.jpg" alt="mira">
+              <img width="300px" height="300px" src="/static/images/cars/mira.jpg" alt="mira">
               <h2 class="fw-bold py-3">Daihatsu Mira</h2>
               <button type="button" class="btn btn-warning">More Info</button>
             </div>
@@ -328,12 +329,12 @@
         <div class="carousel-item">
           <div class="row">
             <div class="col-md-6">
-              <img width="300px" height="300px" src="images/cars/yaris.jpg" alt="yaris">
+              <img width="300px" height="300px" src="/static/images/cars/yaris.jpg" alt="yaris">
               <h2 class="fw-bold py-3">Toyota Yaris</h2>
               <button type="button" class="btn btn-warning">More Info</button>
             </div>
             <div class="col-md-6">
-              <img width="300px" height="300px" src="images/cars/wagonr.jpg" alt="wagonr">
+              <img width="300px" height="300px" src="/static/images/cars/wagonr.jpg" alt="wagonr">
               <h2 class="fw-bold py-3">Suzuki WagonR</h2>
               <button type="button" class="btn btn-warning">More Info</button>
             </div>
@@ -373,18 +374,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 text-center">
-          <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+          <img src="/static/images/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
           <h4>BEST SAFETY MEASURES</h4>
           <span>Our Instructors are Highly Trained in the <br> latest Safety Techniques & Rules of the <br> Road.</span>
         </div>
         <div class="col-md-4 text-center">
-          <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+          <img src="/static/images/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
           <h4>EXPERIENCED INSTRUCTORS</h4>
           <span>All our Instructors are DMV Licensed, <br> mentally and physically fit and have decade <br> or more of
             Instruction History.</span>
         </div>
         <div class="col-md-4 text-center">
-          <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+          <img src="/static/images/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
           <h4>PERFECT TIMING</h4>
           <span>Now is the perfect time to start your In <br> Class, Online or Behind The Wheel <br> Training.</span>
         </div>
@@ -395,18 +396,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 text-center">
-          <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+          <img src="/static/images/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
           <h4>AFFORDABLE FEE</h4>
           <span>We know this process can be expensive. So <br> we constantly monitor our competitions <br>
             pricing.</span>
         </div>
         <div class="col-md-4 text-center">
-          <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+          <img src="/static/images/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
           <h4>CLASS FORMATS</h4>
           <span>We offer In Classroom Drivers Education as <br> well as Online Drivers Education</span>
         </div>
         <div class="col-md-4 text-center">
-          <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+          <img src="/static/images/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
           <h4>PAYMENT PLANS</h4>
           <span>We allow you to decide when and how you <br> want to pay. We accept all major forms of <br>
             payments.</span>
@@ -419,7 +420,7 @@
 
 
   <!-- background with image -->
-  <div class=" container-fluid bg-image py-4" style="background-image: url('images/lowOp.webp'); ">
+  <div class=" container-fluid bg-image py-4" style="background-image: url('/static/images/lowOp.webp'); ">
     <div class="row align-content-center">
       <div class="col-md-4"></div>
       <div class="col-md-4 align-middle d-md-inline-flex ">
@@ -438,7 +439,7 @@
             <div class="carousel-inner">
               <div class="carousel-item active text-center">
                 <h2 class="fw-bold text-light">OUR CUSTOMERS SAYS</h2>
-                <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+                <img src="/static/images/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
 
                 <h4 class="text-light">AFFORDABLE FEE</h4>
                 <span class="text-light">We know this process can be expensive. So <br> we constantly monitor our
@@ -447,14 +448,14 @@
               </div>
               <div class="carousel-item  text-center">
                 <h2 class="fw-bold">OUR CUSTOMERS SAYS</h2>
-                <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+                <img src="/static/images/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
                 <h4>AFFORDABLE FEE</h4>
                 <span>We know this process can be expensive. So <br> we constantly monitor our competitions <br>
                   pricing.</span>
               </div>
               <div class="carousel-item text-center">
                 <h2 class="fw-bold text-light">OUR CUSTOMERS SAYS</h2>
-                <img src="logos/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
+                <img src="/static/images/tickLogo.png" alt="Bootstrap" height="70px" width="100px"><br><br>
                 <h4 class="text-light">AFFORDABLE FEE</h4>
                 <span class="text-light">We know this process can be expensive. So <br> we constantly monitor our
                   competitions <br>
@@ -481,7 +482,7 @@
 
 
   <!-- adding promo -->
-  <div class="container mt-4 py-2" style="background-image: url('./images/promo.jpg')">
+  <div class="container mt-4 py-2" style="background-image: url('/static/images/promo.jpg')">
     <div class="row">
       <div class="col-md-8 text-light text-center" style="font-size: 1.8rem;">
         <div>
@@ -565,7 +566,7 @@
 
           <a class=" text-decoration-none " href=""><span class="text-light">MDBootstrap</span></a> <br> <br>
           <a class=" text-decoration-none " href=""><span class="text-light">MDWordpress</span></a><br><br>
-          <a class=" text-decoration-none " href="./adminDashboard.html"><span class="text-light">BrandFlow</span></a><br><br>
+          <a class=" text-decoration-none " href="adminLogin/"><span class="text-light">BrandFlow</span></a><br><br>
           <a class=" text-decoration-none " href=""><span class="text-light">Bootstrap Angular</span></a>
         </div>
 
